@@ -1,0 +1,55 @@
+body {
+    background-color: #f8f9fa;
+
+  }
+  .navbar {
+    background-color: #343a40; /* Dark background color */
+  }
+
+  .navbar-brand {
+    color: #ffffff; /* White text color for the brand */
+  }
+
+  .navbar-nav .nav-link {
+    color: #ffffff; /* White text color for the links */
+    padding-bottom: 8px; /* Add padding to the bottom of each link */
+    border-bottom: 2px solid transparent; /* Add a transparent border initially */
+  }
+
+  .navbar-nav .nav-link:hover {
+    border-bottom: 2px solid #ffffff; /* Change border color on hover */
+  }
+
+  .transaction-card {
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the alpha (fourth) value for transparency */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .card-header {
+    background-color: rgba(40, 167, 69, 0.9); /* Adjust the alpha (fourth) value for transparency */
+    color: #fff;
+    padding: 10px;
+    border-bottom: none;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .card-icon {
+    font-size: 36px;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .transaction-details {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .amount {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+  }
